@@ -1,4 +1,4 @@
-const API_URL = 'http://korochki-est-vkbs.onrender.com/api';
+const API_URL = 'https://korochki-est-vkbs.onrender.com/api';
 
 export async function registerUser(data) {
 
