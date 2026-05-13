@@ -1,4 +1,4 @@
-const API_URL = 'http://korochki-est-vkbs.onrender.com/api/admin';
+const API_URL = 'https://korochki-est-vkbs.onrender.com/api/admin';
 
 export async function loadAllApplications() {
 
