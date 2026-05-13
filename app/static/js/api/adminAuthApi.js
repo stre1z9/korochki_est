@@ -1,4 +1,4 @@
-const API_URL = 'http://127.0.0.1:5000/api/admin';
+const API_URL = 'http://korochki-est-vkbs.onrender.com/api/admin';
 
 export async function adminLogin(data) {
 
