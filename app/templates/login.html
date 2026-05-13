@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Авторизация | Корочки.есть</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/variables.css">
+    <link rel="stylesheet" href="../static/css/global.css">
+    <link rel="stylesheet" href="../static/css/auth.css">
+    <link rel="stylesheet" href="../static/css/responsive.css">
+    <link rel="stylesheet" href="../static/css/toast.css">
+</head>
+<body>
+<div class="auth-wrapper">
+    <div class="auth-card">
+        <h1>
+            <i class="fas fa-sign-in-alt"></i>
+            Авторизация
+        </h1>
+        <p class="auth-subtitle">
+            Войдите в систему
+        </p>
+        <form id="loginForm">
+            <div class="input-group">
+                <label>Логин</label>
+                <input
+                    type="text"
+                    id="login"
+                    placeholder="Введите логин"
+                    required
+                >
+            </div>
+            <div class="input-group">
+                <label>Пароль</label>
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Введите пароль"
+                    required
+                >
+            </div>
+            <button type="submit"
+                    class="btn-primary">
+                Войти
+            </button>
+        </form>
+        <a href="/register"
+           class="auth-link">
+            Ещё не зарегистрированы? Регистрация
+        </a>
+    </div>
+</div>
+<script type="module" src="../static/js/auth/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .applications-table th,
+    .applications-table td {
+        font-size: 12px;
+        padding: 10px;
+    }
+}

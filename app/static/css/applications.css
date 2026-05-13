@@ -1,0 +1,98 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: var(--primary-color);
+    color: white;
+}
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+.logout-btn {
+    border: none;
+    padding: 10px 18px;
+    border-radius: var(--radius);
+    background: white;
+    cursor: pointer;
+}
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+.card h2 {
+    margin-bottom: 25px;
+    color: var(--primary-color);
+}
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+.input-group input,
+.input-group select,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+}
+.btn-primary {
+    border: none;
+    padding: 14px 20px;
+    border-radius: var(--radius);
+    background: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+.table-wrapper {
+    overflow-x: auto;
+}
+.applications-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.applications-table th,
+.applications-table td {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+.applications-table th {
+    background: #f5f7fb;
+}
+.status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.status-new {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+.status-learning {
+    background: #fff4e5;
+    color: #e67e22;
+}
+.status-finished {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
