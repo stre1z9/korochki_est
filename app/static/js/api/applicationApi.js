@@ -1,4 +1,4 @@
-const API_URL = 'http://korochki-est-vkbs.onrender.com/api/applications';
+const API_URL = 'https://korochki-est-vkbs.onrender.com/api/applications';
 
 export async function createApplication(data) {
     const response = await fetch(
