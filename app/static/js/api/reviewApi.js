@@ -1,4 +1,4 @@
-const API_URL = 'http://127.0.0.1:5000/api/reviews';
+const API_URL = 'http://korochki-est-vkbs.onrender.com/api/reviews';
 
 export async function createReview(data) {
 
